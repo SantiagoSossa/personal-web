@@ -1,0 +1,28 @@
+.Proyects{
+    background: linear-gradient(90deg, #E6E2E2 50%, #F7F2F2 50%);
+    height: 100vh;
+    padding: 0 5%;
+    display: flex;
+    flex-flow: column;
+}
+
+.Proyects h3{
+    margin: 5% 0 0;
+    font-size: 24px;
+}
+
+
+.TitleBorder{
+    height: 10px;
+    width: 100px;
+    background-color: #42B56C;
+}
+
+.ProyectsList{
+    margin-top: 40px;
+    padding: 0;
+    align-items: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}

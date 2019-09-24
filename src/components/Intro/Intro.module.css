@@ -1,0 +1,49 @@
+.Intro{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height:90vh;
+    background: linear-gradient(90deg, #F7F2F2 50%, #E6E2E2 50%);
+    padding: 0 5%;
+}
+
+.ImageContainer{
+    position: relative;
+    height: auto;
+    align-items: flex-end;
+    display: flex;
+}
+
+.InfoContainer{
+    padding: 10% 0;
+    width: 50%;
+}
+
+.InfoContainer p{
+    padding-right: 30px;
+    font-size: 22px;
+}
+
+.InfoContainer h1{
+    font-size: 80px;
+}
+
+.InfoContainer button{
+    font-size: 20px;
+    margin-top: 40px;
+    width: 200px;
+    background-color: #42B56C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow:3px 6px 6px grey;  
+}
+
+.Image{
+    width: 100%;
+    height: 50%;
+}
