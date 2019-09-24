@@ -47,3 +47,9 @@
     border-radius: 50%;
     display: inline-block;
 }
+
+.SkillIcons{
+    display: flex;
+    
+    justify-content: space-between;
+}

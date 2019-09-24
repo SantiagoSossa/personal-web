@@ -21,11 +21,11 @@
 
 .InfoContainer p{
     padding-right: 30px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .InfoContainer h1{
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .InfoContainer button{
@@ -46,4 +46,14 @@
 .Image{
     width: 100%;
     height: 50%;
+}
+
+.SkillIcons{
+    margin-top: 150px;
+    display: flex;
+}
+
+.Icon{
+    margin: 0 10px;
+    cursor: pointer;
 }
