@@ -1,15 +1,38 @@
 import React, {Component} from 'react';
 import Logo from './Logo/Logo';
 import classes from './Header.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons'
 
 class Header extends Component {
+    
     render() {
+        const style = {
+            color: this.props.colors.text,
+            background: `linear-gradient(90deg, ${this.props.colors.bg1} 50%,  ${this.props.colors.bg2} 50%)`
+        }
+    
+
         return(
-            <div className={classes.Header}>
+            <div className={classes.Header} style={style}>
                 <Logo><strong>Santiago</strong> Sossa</Logo>
                 <ul>
-                    <a href="">about</a>
-                    <a href="">proyects</a>
+                    <a href="" style={{color: this.props.colors.text}}>about</a>
+                    <a href="" style={{color: this.props.colors.text}}>proyects</a>
+                    <FontAwesomeIcon 
+                        className={classes.Icon} 
+                        icon={faSun} 
+                        size="lg"/>
+                    <label className={classes.Switch}>
+                        <button className={this.props.darkMode? classes.Checked : ''}></button>
+                        <span  
+                            className={[classes.Slider,classes.Round].join(" ")} 
+                            onClick={this.props.clicked}></span>
+                    </label>
+                    <FontAwesomeIcon
+                        className={classes.Icon}
+                        icon={faMoon} 
+                        size="lg"/>
                 </ul>
             </div>
         )

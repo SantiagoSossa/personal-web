@@ -3,7 +3,6 @@
     flex-flow: row;
     justify-content: space-between;
     height:90vh;
-    background: linear-gradient(90deg, #F7F2F2 50%, #E6E2E2 50%);
     padding: 0 5%;
 }
 
@@ -40,7 +39,10 @@
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
-    box-shadow:3px 6px 6px grey;  
+}
+
+.InfoContainer button:hover {  
+    background-color: #338272;
 }
 
 .Image{
@@ -51,9 +53,20 @@
 .SkillIcons{
     margin-top: 150px;
     display: flex;
+    width: 200px;
+    justify-content: space-between;
+    
 }
 
 .Icon{
-    margin: 0 10px;
+    color: #42B56C;
     cursor: pointer;
+} 
+
+.Icon:hover {  
+    color: #338272;
+}
+
+.SkillIcons a{
+    margin: 0;
 }

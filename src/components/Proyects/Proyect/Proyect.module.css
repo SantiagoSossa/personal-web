@@ -3,6 +3,7 @@
     position: relative;
     display: flex;
     justify-content: center;
+    color: #333;
 }
 
 .Proyect .Card{
@@ -11,7 +12,7 @@
 
 .Proyect .Card .Face{
     width: 300px;
-    height: 200px;
+    height: 250px;
     transition: 0.5s;
 }
 
@@ -22,11 +23,11 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
-    transform: translateY(100px);
+    transform: translateY(150px);
 }
 
 .Face1 .Content{
-    opacity: 0.2;
+    opacity: 0.5;
     transition: 0.5s;
 }
 
@@ -37,19 +38,19 @@
 
 .Card:hover .Face1 .Content{
     opacity: 1;
+    justify-content: center;
 }
 
 .Card .Face1 .Content img{
-    max-width: 200px;
-    max-height: 150px;
+    width: 100%;
 }
 
 .Card .Face1 .Content h3{
-    margin: 10px 0 0;
+    margin: 0;
     padding: 0;
     color: #fff;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .Face2{
@@ -60,7 +61,7 @@
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
-    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
     transform: translateY(-100px);
 }
 
@@ -78,12 +79,19 @@
     display: inline-block;
     text-decoration: none;
     font-weight: 900;
-    color: #333;
     padding: 5px;
-    border: 1px solid #333;
 }
 
-.Face2 a:hover{
-    background: #333;
-    color: #fff;
+.Face2 .Icon{
+    cursor: pointer;
+    margin: 0 20px;
+    filter:drop-shadow(3px 6px 6px rgb(192, 192, 192));
+} 
+
+.Face2 .Icon:hover {  
+    color: rgb(146, 140, 140);
+}
+
+.Icons{
+    text-align: center;
 }

@@ -1,9 +1,9 @@
 .Proyects{
-    background: linear-gradient(90deg, #E6E2E2 50%, #F7F2F2 50%);
     height: 100vh;
     padding: 0 5%;
     display: flex;
     flex-flow: column;
+    color: black;
 }
 
 .Proyects h3{

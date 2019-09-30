@@ -1,5 +1,4 @@
 .About{
-    background-color: #C1C1C1;
     height: 100vh;
     padding: 0 5%;
     display: flex;
@@ -46,6 +45,7 @@
     background-image: linear-gradient(#9CF54F, #42B56C);
     border-radius: 50%;
     display: inline-block;
+    margin-left: 20%;
 }
 
 .SkillIcons{
