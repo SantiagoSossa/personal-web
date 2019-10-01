@@ -9,7 +9,7 @@ class Proyects extends Component {
         background: this.props.colors.bg3
     }
         return(
-            <div className={classes.Proyects} style={style}>
+            <div id="proyects" className={classes.Proyects} style={style}>
                 <h3>Proyects</h3>
                 <span className={classes.TitleBorder}></span>
                 <div className={classes.ProyectsList}>

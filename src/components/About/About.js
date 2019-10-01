@@ -11,6 +11,8 @@ import {
     faBootstrap
   } from '@fortawesome/free-brands-svg-icons';
 
+import Zoom from 'react-reveal/Zoom';
+
 class About extends Component {
     render () {
         const style = {
@@ -18,7 +20,7 @@ class About extends Component {
             background: `linear-gradient(90deg, ${this.props.colors.bg1} 50%,  ${this.props.colors.bg2} 50%)`
         }
         return(
-            <div className={classes.About} style={style}>
+            <div id="about" className={classes.About} style={style}>
                 <div className={classes.AboutContainer}>
                     <h3>About</h3>
                     <span className={classes.TitleBorder}></span>
@@ -34,9 +36,11 @@ class About extends Component {
                         <FontAwesomeIcon title="Bootstrap" icon={faBootstrap} size="4x" />
                     </div>
                 </div>
+            <Zoom duration={2000}>
                 <div className={classes.PictureContainer}>
                     <span className={classes.Circle}></span>
                 </div>
+            </Zoom>
             </div>
         )
     }

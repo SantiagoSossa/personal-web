@@ -5,7 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons'
 
+import Fade from 'react-reveal/Fade';
+
 const Proyect = (props) => (
+    <Fade duration={1500} bottom>
     <div className={classes.Proyect}>
         <div className={classes.Card}>
             <div className={[classes.Face,classes.Face1].join(" ")}>
@@ -37,6 +40,7 @@ const Proyect = (props) => (
             </div>
         </div>
     </div>
+    </Fade>
 );
 
 export default Proyect;

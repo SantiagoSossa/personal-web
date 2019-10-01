@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { faStickyNote, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
+import Fade from 'react-reveal/Fade';
+
 class Intro extends Component {
 
     scrollHandler = () => {
@@ -20,11 +22,19 @@ class Intro extends Component {
         return(
         <div className={classes.Intro} style={style}>
             <div className={classes.InfoContainer}>
+                <Fade duration={1500} top>
                 <h1>Welcome,</h1>
+                </Fade>
+                <Fade duration={1500} top>
                 <p>I'm Santiago, a Systems
                 Engineer and Frontend developer.
                 </p>
+                </Fade>
+                <Fade duration={1500} top>
+                <a href='mailto:santiagosossa95@gmail.com'>
                 <button style={{boxShadow:`3px 6px 6px ${this.props.colors.shadow}`}}>contact me</button>
+                </a>
+                </Fade>
                 <div className={classes.SkillIcons} style={{filter:`drop-shadow(3px 6px 6px ${this.props.colors.shadow})`}}>
                     <a href="https://github.com/SantiagoSossa" target="_blank">
                         <FontAwesomeIcon 

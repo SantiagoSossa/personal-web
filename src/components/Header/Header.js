@@ -17,8 +17,8 @@ class Header extends Component {
             <div className={classes.Header} style={style}>
                 <Logo><strong>Santiago</strong> Sossa</Logo>
                 <ul>
-                    <a href="" style={{color: this.props.colors.text}}>about</a>
-                    <a href="" style={{color: this.props.colors.text}}>proyects</a>
+                    <a href="#proyects" style={{color: this.props.colors.text}}>proyects</a>
+                    <a href="#about" style={{color: this.props.colors.text}}>about</a>
                     <FontAwesomeIcon 
                         className={classes.Icon} 
                         icon={faSun} 
