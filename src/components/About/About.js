@@ -27,13 +27,13 @@ class About extends Component {
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni minus consectetur nihil eveniet delectus obcaecati unde quidem animi! Exercitationem dolorem possimus nulla harum numquam. Ipsum exercitationem numquam commodi vitae officiis?</p>
                     <h5>Experience with:</h5>
                     <div className={classes.SkillIcons}>
-                        <FontAwesomeIcon title="JavaScript" icon={faJs} size="4x" />
-                        <FontAwesomeIcon title="CSS" icon={faCss3Alt} size="4x" />
-                        <FontAwesomeIcon title="HTML" icon={faHtml5} size="4x" />
-                        <FontAwesomeIcon title="React" icon={faReact} size="4x" />
-                        <FontAwesomeIcon title="Java" icon={faJava} size="4x" />
-                        <FontAwesomeIcon title="Angular" icon={faAngular} size="4x" />
-                        <FontAwesomeIcon title="Bootstrap" icon={faBootstrap} size="4x" />
+                        <FontAwesomeIcon title="JavaScript" icon={faJs} className={classes.Icon} />
+                        <FontAwesomeIcon title="CSS" icon={faCss3Alt} className={classes.Icon} />
+                        <FontAwesomeIcon title="HTML" icon={faHtml5} className={classes.Icon} />
+                        <FontAwesomeIcon title="React" icon={faReact} className={classes.Icon} />
+                        <FontAwesomeIcon title="Java" icon={faJava} className={classes.Icon} />
+                        <FontAwesomeIcon title="Angular" icon={faAngular} className={classes.Icon} />
+                        <FontAwesomeIcon title="Bootstrap" icon={faBootstrap} className={classes.Icon} />
                     </div>
                 </div>
             <Zoom duration={2000}>

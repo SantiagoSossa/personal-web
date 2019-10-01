@@ -53,6 +53,9 @@
     justify-content: space-between;
 }
 
+.Icon{
+    font-size: 60px;
+}
 
 @media (max-width: 880px){
     .Circle{
@@ -80,6 +83,10 @@
     .PictureContainer{
         width: 100%;
         padding: 10% 0;
+    }
+
+    .Icon{
+        font-size: 40px;
     }
     
 }

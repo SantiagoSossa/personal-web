@@ -98,6 +98,16 @@
         padding: 0;
         width: 100%;
     }
+    .InfoContainer h1{
+        font-size: 50px;
+    }
+    .InfoContainer p{
+        padding-right: 0px;
+        font-size: 16px;
+    }
+    .InfoContainer button{
+        width: 90%;
+    }
     .ImageContainer{
         position: relative;
         height: auto;

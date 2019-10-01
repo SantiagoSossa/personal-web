@@ -97,3 +97,9 @@
 .Icons{
     text-align: center;
 }
+
+@media (max-width:680px){
+    .Proyect{
+        margin: 10%;
+    }
+}
