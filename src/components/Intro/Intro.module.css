@@ -70,3 +70,47 @@
 .SkillIcons a{
     margin: 0;
 }
+
+.DownArrow{
+    cursor: pointer;
+    position: absolute;
+    left: calc(50% - 21px);
+    bottom: 10px;  
+    filter: drop-shadow(3px 6px 6px #454545);
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@media (max-width: 680px){
+    .Intro{
+        padding:0 40px;
+        flex-flow: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .InfoContainer{
+        padding: 0;
+        width: 100%;
+    }
+    .ImageContainer{
+        position: relative;
+        height: auto;
+        align-items: flex-end;
+        text-align: center;
+        display: flex;
+    }
+    .Image{
+        height: 100%;
+    }
+    .SkillIcons{
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 100px;
+    }
+}

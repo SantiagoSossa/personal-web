@@ -2,13 +2,16 @@ import React, {Component} from 'react';
 import mountains from '../../assets/images/Mountains.png';
 import classes from './Intro.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-    faGithubSquare,
-    faLinkedin,
-  } from '@fortawesome/free-brands-svg-icons';
-import { faStickyNote } from '@fortawesome/free-solid-svg-icons'
+import { faGithubSquare, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { faStickyNote, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 class Intro extends Component {
+
+    scrollHandler = () => {
+        console.log(window);
+        window.scroll(0,window.innerHeight+12);
+    }
+
     render() {
         const style = {
             color: this.props.colors.text,
@@ -47,6 +50,11 @@ class Intro extends Component {
             <div className={classes.ImageContainer}>
                 <img className={classes.Image} src={mountains} alt="Mountains Img"/>
             </div>
+            <FontAwesomeIcon
+                        className={classes.DownArrow} 
+                        icon={faChevronDown} 
+                        size="3x" 
+                        onClick={this.scrollHandler}/>
         </div>
         )
     }

@@ -76,3 +76,9 @@ a:visited { text-decoration: none; color:#4D4C4C; }
 a:hover { text-decoration: none; color:#4D4C4C; }
 a:focus { text-decoration: none; color:#4D4C4C; }
 a:hover, a:active { text-decoration: none; color:#4D4C4C }
+
+@media (max-width: 680px){
+  .Header ul a{
+    display: none;
+  }
+}

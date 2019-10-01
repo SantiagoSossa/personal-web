@@ -19,7 +19,7 @@ class Layout extends Component{
             text : '#F7F2F2',
             bg1 : '#4D4C4C',
             bg2 : '#353535',
-            bg3 : '#304961',
+            bg3 : '#252525',
             shadow: '#353535'
         },
         darkMode: false

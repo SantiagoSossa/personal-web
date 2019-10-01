@@ -8,8 +8,8 @@
 .AboutContainer{
     display: flex;
     flex-flow: column;
-    padding: 5% 0;
-    width: 50%;
+    padding: 5% 5% 0 0;
+    width: 50vw;
 }
 
 .AboutContainer h3{
@@ -33,23 +33,53 @@
 }
 
 .PictureContainer{
-    width: 50%;
-    padding: 10%;
+    padding: 10% 0;
+    width: 50vw;
+    text-align: center;
 }
 
 .Circle{
     position: relative;
-    width: 100%;
-    height: auto;
-    padding-top: 100%;
+    width: 400px;
+    height: 400px;
     background-image: linear-gradient(#9CF54F, #42B56C);
     border-radius: 50%;
     display: inline-block;
-    margin-left: 20%;
 }
 
 .SkillIcons{
     display: flex;
     
     justify-content: space-between;
+}
+
+
+@media (max-width: 880px){
+    .Circle{
+        width: 300px;
+        height: 300px;
+    }
+    .AboutContainer{
+        padding: 5% 20% 0 0;
+        width: 40vw;
+    }
+}
+
+@media (max-width: 780px){
+
+    .About{
+        flex-flow: column;
+        height: auto;
+    }
+    
+    .AboutContainer{
+        width: 100%;
+        padding: 5% 0;
+    }
+
+    .PictureContainer{
+        width: 100%;
+        padding: 10% 0;
+    }
+    
 }
