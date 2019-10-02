@@ -93,6 +93,7 @@
         justify-content: space-between;
         align-items: center;
         text-align: center;
+        height: 85vh;
     }
     .InfoContainer{
         padding: 0;
@@ -121,6 +122,6 @@
     .SkillIcons{
         justify-content: space-evenly;
         width: 100%;
-        margin-top: 100px;
+        margin-top: 50px;
     }
 }
