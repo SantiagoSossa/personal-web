@@ -70,6 +70,7 @@
 
   .Icon{
       margin: 0 2px;
+      font-size: 20px;
   }
 
 a:visited { text-decoration: none; color:#4D4C4C; }

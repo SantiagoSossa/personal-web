@@ -1,10 +1,27 @@
 .Logo{
     display: flex;
     flex-flow: row;
+    align-items: center;
 }
 
 .Logo img{
     margin: 5px 10px 5px 0px;
     width:36px;
     height: 48px;
+}
+.Logo h3{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+@media (max-width: 680px){
+    .Logo h3{
+        font-size: 16px;
+    }
+    .Logo img{
+        margin: 5px 6px 5px 0px;
+        width:24px;
+        height: 36px;
+    }
 }

@@ -6,7 +6,7 @@ import classes from './Logo.module.css';
 const Logo = (props) => (
     <div className={classes.Logo}>
         <img src={sLogo} alt="Triangle Logo"/>
-        <p>{props.children}</p>
+        <h3>{props.children}</h3>
     </div>
 );
 

@@ -21,8 +21,7 @@ class Header extends Component {
                     <a href="#about" style={{color: this.props.colors.text}}>about</a>
                     <FontAwesomeIcon 
                         className={classes.Icon} 
-                        icon={faSun} 
-                        size="lg"/>
+                        icon={faSun} />
                     <label className={classes.Switch}>
                         <button className={this.props.darkMode? classes.Checked : ''}></button>
                         <span  
@@ -31,8 +30,7 @@ class Header extends Component {
                     </label>
                     <FontAwesomeIcon
                         className={classes.Icon}
-                        icon={faMoon} 
-                        size="lg"/>
+                        icon={faMoon}/>
                 </ul>
             </div>
         )
