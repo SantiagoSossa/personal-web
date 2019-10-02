@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import classes from './Footer.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faReact } from '@fortawesome/free-brands-svg-icons';
 
 
 class Footer extends Component{
@@ -8,9 +10,10 @@ class Footer extends Component{
             color: this.props.colors.text,
             background: this.props.colors.bg3
         }
+        const reactLogo = <FontAwesomeIcon icon={faReact} className={classes.Icon} />;
         return(
             <div className={classes.Footer} style={style}>
-                <p>Made By Santiago Sossa</p>
+                <p>Made with {reactLogo} By Santiago Sossa</p>
             </div>
         )
     }

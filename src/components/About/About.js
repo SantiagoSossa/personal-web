@@ -24,7 +24,7 @@ class About extends Component {
                 <div className={classes.AboutContainer}>
                     <h3>About</h3>
                     <span className={classes.TitleBorder}></span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni minus consectetur nihil eveniet delectus obcaecati unde quidem animi! Exercitationem dolorem possimus nulla harum numquam. Ipsum exercitationem numquam commodi vitae officiis?</p>
+                    <p>I’m a systems engineer from the Autonomous University of Manizales. I’m passionate about building interactive applications with intuitive design for the user. I'm mostly interested in web development, UI/UX design, upcoming technology and travel</p>
                     <h5>Experience with:</h5>
                     <div className={classes.SkillIcons}>
                         <FontAwesomeIcon title="JavaScript" icon={faJs} className={classes.Icon} />
