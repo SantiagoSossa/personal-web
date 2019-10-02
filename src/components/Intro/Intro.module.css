@@ -14,7 +14,7 @@
 }
 
 .InfoContainer{
-    padding: 10% 0;
+    padding: 0;
     width: 50%;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .SkillIcons{
-    margin-top: 150px;
+    margin-top: 10vh;
     display: flex;
     width: 200px;
     justify-content: space-between;

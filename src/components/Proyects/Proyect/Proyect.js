@@ -25,15 +25,13 @@ const Proyect = (props) => (
                             <FontAwesomeIcon 
                                 title="Github" 
                                 className={classes.Icon} 
-                                icon={faGithubSquare} 
-                                size="2x"/>
+                                icon={faGithubSquare} />
                             </a>
                         <a href={props.demoLink} target="_blank">
                             <FontAwesomeIcon 
                                 title="Proyect" 
                                 className={classes.Icon} 
-                                icon={faLaptopCode} 
-                                size="2x" />
+                                icon={faLaptopCode} />
                         </a>
                     </div>
                 </div>

@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     color: #333;
-    margin: 5%;
+    margin: 2% 5%;
 }
 
 .Proyect .Card{
@@ -13,8 +13,8 @@
 }
 
 .Proyect .Card .Face{
-    width: 300px;
-    height: 250px;
+    width: 250px;
+    height: 200px;
     transition: 0.5s;
 }
 
@@ -40,7 +40,7 @@
 
 .Card:hover .Face1 .Content{
     opacity: 1;
-    justify-content: center;
+     
 }
 
 .Card .Face1 .Content img{
@@ -52,7 +52,7 @@
     padding: 0;
     color: #fff;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 18px;
 }
 
 .Face2{
@@ -61,10 +61,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
     box-shadow: 0 5px 5px rgba(0,0,0,0.2);
-    transform: translateY(-100px);
+    transform: translateY(-50px);
+    overflow: hidden;
 }
 
 .Card:hover .Face2{
@@ -74,6 +75,7 @@
 .Face2 p{
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 .Face2 a{
@@ -96,6 +98,7 @@
 
 .Icons{
     text-align: center;
+    font-size: 35px;
 }
 
 @media (max-width:680px){
