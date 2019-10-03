@@ -6,80 +6,14 @@
     padding: 15px 5%;
 }
 
-.Header ul a{
-    text-decoration: none;
-    margin: 30px;
-}
-
-.Switch {
-    position: relative;
-    display: inline-block;
-    width: 50px;
-    height: 28px;
-  }
-  
-  .Switch button { 
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  .Slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .Slider:before {
-    position: absolute;
-    content: "";
-    height: 20px;
-    width: 20px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .Checked + .Slider {
-    background-color: #2196F3;
-  }
-
-  
-  .Checked + .Slider:before {
-    -webkit-transform: translateX(21px);
-    -ms-transform: translateX(21px);
-    transform: translateX(21px);
-  }
-  
-  /* Rounded sliders */
-  .Slider.Round {
-    border-radius: 34px;
-  }
-  
-  .Slider.Round:before {
-    border-radius: 50%;
-  }
-
-  .Icon{
-      margin: 0 2px;
-      font-size: 20px;
-  }
-
-a:visited { text-decoration: none; color:#4D4C4C; }
-a:hover { text-decoration: none; color:#4D4C4C; }
-a:focus { text-decoration: none; color:#4D4C4C; }
-a:hover, a:active { text-decoration: none; color:#4D4C4C }
 
 @media (max-width: 680px){
   .Header ul a{
     display: none;
   }
+  .NavigationItems{
+    display: none;
+  }
 }
+
+

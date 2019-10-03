@@ -88,12 +88,10 @@
 
 @media (max-width: 680px){
     .Intro{
-        padding:0 40px;
         flex-flow: column;
         justify-content: space-between;
         align-items: center;
         text-align: center;
-        height: 85vh;
     }
     .InfoContainer{
         padding: 0;
