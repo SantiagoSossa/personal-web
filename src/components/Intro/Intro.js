@@ -8,12 +8,6 @@ import { faStickyNote, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import Fade from 'react-reveal/Fade';
 
 class Intro extends Component {
-
-    scrollHandler = () => {
-        console.log(window);
-        window.scroll(0,window.innerHeight+12);
-    }
-
     render() {
         const style = {
             color: this.props.colors.text,
@@ -60,11 +54,12 @@ class Intro extends Component {
             <div className={classes.ImageContainer}>
                 <img className={classes.Image} src={mountains} alt="Mountains Img"/>
             </div>
+            <a href="#proyects" className={classes.DownArrow}>
             <FontAwesomeIcon
-                        className={classes.DownArrow} 
                         icon={faChevronDown} 
                         size="3x" 
-                        onClick={this.scrollHandler}/>
+                        style={{color:`${this.props.colors.text}`}}/>
+            </a>
         </div>
         )
     }

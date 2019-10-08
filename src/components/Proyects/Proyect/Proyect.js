@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './Proyect.module.css';
-import proyectTest from '../../../assets/images/ProyectTest.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons'
@@ -13,7 +12,7 @@ const Proyect = (props) => (
         <div className={classes.Card}>
             <div className={[classes.Face,classes.Face1].join(" ")}>
                 <div className={classes.Content}>
-                    <img src={proyectTest} alt="Test"/>
+                    <img src={props.image} alt="Test"/>
                     <h3>{props.title}</h3>
                 </div>
             </div>
@@ -23,13 +22,13 @@ const Proyect = (props) => (
                     <div className={classes.Icons}>
                         <a href={props.githubLink} target="_blank">
                             <FontAwesomeIcon 
-                                title="Github" 
+                                title="View Code" 
                                 className={classes.Icon} 
                                 icon={faGithubSquare} />
                             </a>
                         <a href={props.demoLink} target="_blank">
                             <FontAwesomeIcon 
-                                title="Proyect" 
+                                title="View Demo" 
                                 className={classes.Icon} 
                                 icon={faLaptopCode} />
                         </a>

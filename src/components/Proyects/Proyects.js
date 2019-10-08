@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 import Proyect from './Proyect/Proyect';
 import classes from './Proyects.module.css';
+import CollegeRecipes from '../../assets/images/CollegeRecipes.png';
+import Conexion from '../../assets/images/Conexion.png';
+import Portfolio from '../../assets/images/Portfolio.png';
 
 class Proyects extends Component {
     render() {
@@ -14,20 +17,23 @@ class Proyects extends Component {
                 <span className={classes.TitleBorder}></span>
                 <div className={classes.ProyectsList}>
                     <Proyect 
-                        title="Proyect 1" 
+                        image={CollegeRecipes}
+                        title="College Recipes" 
                         description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni minus consectetur nihil eveniet delectus obcaecati unde quidem animi!" 
-                        githubLink="" 
-                        demoLink=""/>
+                        githubLink="https://github.com/SantiagoSossa/college-recipes" 
+                        demoLink="https://college-recipes.firebaseapp.com/"/>
                     <Proyect 
-                        title="Proyect 2" 
+                        image={Conexion}
+                        title="Conexion EyS" 
                         description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni minus consectetur nihil eveniet delectus obcaecati unde quidem animi!" 
-                        githubLink="" 
-                        demoLink=""/>
+                        githubLink="https://github.com/SantiagoSossa/conexion-webpage" 
+                        demoLink="http://conexioneventosyservicios.com/"/>
                     <Proyect 
-                        title="Proyect 3" 
+                        image={Portfolio}    
+                        title="This Portfolio" 
                         description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni minus consectetur nihil eveniet delectus obcaecati unde quidem animi!" 
-                        githubLink="" 
-                        demoLink=""/>
+                        githubLink="https://github.com/SantiagoSossa/personal-web" 
+                        demoLink="https://www.santiagosossa.com/"/>
                 </div>
             </div>
         )
