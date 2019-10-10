@@ -27,10 +27,6 @@
     justify-content: center;
 }
 
-/* .ProyectsList::after {
-    content: '';
-    flex: auto;
-    } */
 
 @media (max-width: 1200px){
     .ProyectsList{
