@@ -68,6 +68,10 @@
         width: 300px;
         height: 300px;
     }
+    .Photo{
+        width: 220px;
+        margin-top: 40px;
+    }
     .AboutContainer{
         padding: 5% 20% 0 0;
         width: 40vw;
