@@ -47,6 +47,13 @@
     display: inline-block;
 }
 
+.Photo{
+    border-radius: 50%;
+    width: 300px;
+    margin-top: 50px;
+    filter: grayscale(80%);
+}
+
 .SkillIcons{
     display: flex;
     justify-content: space-between;

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import classes from './About.module.css';
+import Photo from '../../assets/images/photo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faAngular,
@@ -38,7 +39,9 @@ class About extends Component {
                 </div>
             <Zoom duration={2000}>
                 <div className={classes.PictureContainer}>
-                    <span className={classes.Circle}></span>
+                    <span className={classes.Circle}>
+                        <img className={classes.Photo} src={Photo} alt=""/>
+                    </span>
                 </div>
             </Zoom>
             </div>
