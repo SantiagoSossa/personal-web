@@ -76,7 +76,7 @@
 
 .Face2 p{
     margin: 0;
-    padding: 0;
+    padding: 0 40px;
     font-size: 16px;
 }
 
@@ -86,22 +86,13 @@
     text-decoration: none;
     font-weight: 900;
     padding: 5px;
-    color:#4D4C4C;
 }
 
 .Face2 .Icon{
     cursor: pointer;
     margin: 0 20px;
     filter:drop-shadow(3px 6px 6px rgb(192, 192, 192));
-} 
-
-.Face1 .IconDots{
-    cursor: pointer;
-    position: absolute;
-    filter:drop-shadow(3px 6px 6px rgb(192, 192, 192));
-    top: 0;
-    left: 0;
-} 
+}
 
 .Face2 .Icon:hover {  
     color: rgb(146, 140, 140);
@@ -112,13 +103,19 @@
     font-size: 35px;
 }
 
-a:visited { text-decoration: none; color:#4D4C4C; }
-a:hover { text-decoration: none; color:#4D4C4C; }
-a:focus { text-decoration: none; color:#4D4C4C; }
-a:hover, a:active { text-decoration: none; color:#4D4C4C }
+a:visited { text-decoration: none;  }
+a:hover { text-decoration: none;  }
+a:focus { text-decoration: none;  }
+a:hover, a:active { text-decoration: none; }
 
 @media (max-width:680px){
     .Proyect{
         margin: 12%;
+    }
+}
+
+@media (max-width:1200px){
+    .Proyect{
+        margin: 8% 5%;
     }
 }

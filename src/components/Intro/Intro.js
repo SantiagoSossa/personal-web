@@ -25,19 +25,20 @@ class Intro extends Component {
                 </p>
                 </Fade>
                 <Fade duration={1500} top>
-                <a href='https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=santiagosossa95@gmail.com' target="_blank">
+                {/* https://mail.google.com/mail/?view=cm&fs=1&tf=1&to= */}
+                <a href='mailto: santiagosossa95@gmail.com' rel="noopener noreferrer" target="_blank">
                 <button style={{boxShadow:`3px 6px 6px ${this.props.colors.shadow}`}}>contact me</button>
                 </a>
                 </Fade>
                 <div className={classes.SkillIcons} style={{filter:`drop-shadow(3px 6px 6px ${this.props.colors.shadow})`}}>
-                    <a href="https://github.com/SantiagoSossa" target="_blank">
+                    <a href="https://github.com/SantiagoSossa" rel="noopener noreferrer" target="_blank">
                         <FontAwesomeIcon 
                             title="Github" 
                             className={classes.Icon} 
                             icon={faGithubSquare} 
                             size="3x"/>
                     </a>
-                    <a href="https://www.linkedin.com/in/santiago-sossa-a72582193/" target="_blank">
+                    <a href="https://www.linkedin.com/in/santiago-sossa-a72582193/" rel="noopener noreferrer" target="_blank">
                         <FontAwesomeIcon 
                             title="LinkedIn" 
                             className={classes.Icon} 

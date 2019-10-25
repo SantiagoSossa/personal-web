@@ -9,7 +9,8 @@ import {
     faReact,
     faJs,
     faJava,
-    faBootstrap
+    faBootstrap,
+    faSass
   } from '@fortawesome/free-brands-svg-icons';
 
 import Zoom from 'react-reveal/Zoom';
@@ -35,6 +36,7 @@ class About extends Component {
                         <FontAwesomeIcon title="Java" icon={faJava} className={classes.Icon} />
                         <FontAwesomeIcon title="Angular" icon={faAngular} className={classes.Icon} />
                         <FontAwesomeIcon title="Bootstrap" icon={faBootstrap} className={classes.Icon} />
+                        <FontAwesomeIcon title="SASS" icon={faSass} className={classes.Icon} />
                     </div>
                 </div>
             <Zoom duration={2000}>
