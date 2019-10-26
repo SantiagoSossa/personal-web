@@ -51,10 +51,10 @@
 
 .Card .Face1 .Content h3{
     margin: 0;
-    padding: 10px;
+    /* padding: 10px; */
     color: #fff;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.2rem;
 }
 
 .Face2{
@@ -77,7 +77,7 @@
 .Face2 p{
     margin: 0;
     padding: 0 40px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .Face2 a{

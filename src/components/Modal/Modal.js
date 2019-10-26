@@ -41,8 +41,21 @@ export default function Modal(props) {
                         </div>
                     </div>
                     <div className={classes.Right}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis pariatur sed, quibusdam reiciendis nobis ea, dolorum deserunt nulla quis labore adipisci accusantium at omnis quos excepturi nostrum, obcaecati sequi fugit.</p>
+                        {props.largeDescription}
                     </div>
+                    {/* <div className={classes.Left}>
+                        <div className={classes.ImageContainer} style={{boxShadow:`3px 6px 6px ${props.colors.shadow}`}}>
+                            <img src={props.gif} alt="Demo Gif"/>
+                        </div>
+                    </div>
+                    <div className={classes.Right}>
+                    <   div className={classes.Technologies}>
+                            <p>Technologies Used</p>
+                            <br/>
+                            <div className={classes.Icons}>{tecIcons}</div>
+                        </div>
+                        {props.largeDescription}
+                    </div> */}
                 </div>
             </div>
         </div>

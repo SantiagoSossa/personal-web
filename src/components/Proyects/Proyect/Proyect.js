@@ -36,7 +36,8 @@ export default class Proyect extends Component {
                 modalClosed={this.handleModalClose}
                 colors={this.props.color}
                 gif={this.props.gif}
-                icons={this.props.icons}>
+                icons={this.props.icons}
+                largeDescription={this.props.largeDescription}>
             </Modal>;
         }
         return(
