@@ -47,7 +47,6 @@ export default class Proyect extends Component {
                     <div className={[classes.Face,classes.Face1].join(" ")}>
                         <div className={classes.Content}>
                             <img src={this.props.image} alt="Test"/>
-                            <h3>{this.props.title}</h3>
                         </div>
                     </div>
                     <div className={[classes.Face,classes.Face2].join(" ")} style={style}>
