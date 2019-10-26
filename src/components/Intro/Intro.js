@@ -27,7 +27,7 @@ class Intro extends Component {
                 <Fade duration={1500} top>
                 {/* https://mail.google.com/mail/?view=cm&fs=1&tf=1&to= */}
                 <a href='mailto: santiagosossa95@gmail.com' rel="noopener noreferrer" target="_blank">
-                <button style={{boxShadow:`3px 6px 6px ${this.props.colors.shadow}`}}>contact me</button>
+                <button style={{boxShadow:`3px 6px 6px ${this.props.colors.shadow}`}} aria-label="contact me">contact me</button>
                 </a>
                 </Fade>
                 <div className={classes.SkillIcons} style={{filter:`drop-shadow(3px 6px 6px ${this.props.colors.shadow})`}}>
@@ -55,7 +55,7 @@ class Intro extends Component {
             <div className={classes.ImageContainer}>
                 <img className={classes.Image} src={mountains} alt="Mountains Img"/>
             </div>
-            <a href="#proyects" className={classes.DownArrow}>
+            <a href="#proyects" className={classes.DownArrow} aria-label="Go to my proyects">
             <FontAwesomeIcon
                         icon={faChevronDown} 
                         size="3x" 

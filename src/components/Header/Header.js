@@ -14,11 +14,13 @@ class Header extends Component {
             <div className={classes.Header} style={style}>
                 <Logo><strong>Santiago</strong> Sossa</Logo>
                 <ul>
+                    <li>
                     <NavigationItems 
                     className={classes.NavigationItems}
                     colors={this.props.colors} 
                     darkMode={this.props.darkMode} 
                     clicked={this.props.clicked}/>
+                    </li>
                 </ul>
             </div>
         )

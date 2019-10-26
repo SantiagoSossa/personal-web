@@ -7,6 +7,10 @@
     
 }
 
+ul{
+  list-style-type: none;
+}
+
 
 @media (max-width: 680px){
   .Header ul a{

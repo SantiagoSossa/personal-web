@@ -13,7 +13,7 @@ class NavigationItems extends Component {
                     className={classes.Icon} 
                     icon={faSun} />
                 <label className={classes.Switch}>
-                    <button className={this.props.darkMode? classes.Checked : ''}></button>
+                    <button className={this.props.darkMode? classes.Checked : ''} aria-label="Switch light/dark mode"></button>
                     <span  
                         className={[classes.Slider,classes.Round].join(" ")} 
                         onClick={this.props.clicked}></span>
