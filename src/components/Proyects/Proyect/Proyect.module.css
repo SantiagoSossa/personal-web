@@ -37,7 +37,7 @@
 }
 
 .Card:hover .Face1{
-    background: #42B56C;
+    background: #42B56C !important;
     transform: translateY(0);
 }
 

@@ -24,7 +24,7 @@ export default class Proyect extends Component {
     render() {
         const style = {
             color: this.props.color.text,
-            background: this.props.color.bg1,
+            background: this.props.color.bg1
         }
         const iconStyles = {
             filter:`drop-shadow(3px 6px 6px ${this.props.color.bg2})`
@@ -44,7 +44,7 @@ export default class Proyect extends Component {
             <div className={classes.Proyect}>
                 <Fade duration={1500} bottom>
                 <div className={classes.Card}>
-                    <div className={[classes.Face,classes.Face1].join(" ")}>
+                    <div className={[classes.Face,classes.Face1].join(" ")} style={style}>
                         <div className={classes.Content}>
                             <img src={this.props.image} alt="Test"/>
                         </div>

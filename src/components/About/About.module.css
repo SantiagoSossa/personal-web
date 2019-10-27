@@ -49,8 +49,8 @@
 
 .Photo{
     border-radius: 50%;
-    width: 300px;
-    margin-top: 50px;
+    width: 350px;
+    margin-top: 25px;
     filter: grayscale(80%);
 }
 
@@ -69,8 +69,8 @@
         height: 300px;
     }
     .Photo{
-        width: 220px;
-        margin-top: 40px;
+        width: 270px;
+        margin-top: 15px;
     }
     .AboutContainer{
         padding: 5% 20% 0 0;
