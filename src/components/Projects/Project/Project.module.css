@@ -1,19 +1,19 @@
-.Proyect{
+.Project{
     width: 300px;
     height: 350px;
     position: relative;
     display: flex;
     justify-content: center;
     color: #333;
-    margin: 5%;
+    margin: 5% 10%;
 }
 
-.Proyect .Card{
+.Project .Card{
     position: relative;
     width: 100%;
 }
 
-.Proyect .Card .Face{
+.Project .Card .Face{
     width: 300px;
     height: 250px;
     transition: 0.5s;
@@ -114,13 +114,13 @@ a:focus { text-decoration: none;  }
 a:hover, a:active { text-decoration: none; }
 
 @media (max-width:680px){
-    .Proyect{
+    .Project{
         margin: 12%;
     }
 }
 
 @media (max-width:1200px){
-    .Proyect{
+    .Project{
         margin: 20% 5%;
     }
 }

@@ -55,7 +55,7 @@ class Intro extends Component {
             <div className={classes.ImageContainer}>
                 <img className={classes.Image} src={mountains} alt="Mountains Img"/>
             </div>
-            <a href="#proyects" className={classes.DownArrow} aria-label="Go to my proyects">
+            <a href="#projects" className={classes.DownArrow} aria-label="Go to my projects">
             <FontAwesomeIcon
                         icon={faChevronDown} 
                         size="3x" 

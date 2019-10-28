@@ -7,7 +7,7 @@ class NavigationItems extends Component {
     render() {
         return(
             <div className={classes.NavigationItems} >
-                <a href="#proyects" style={{color: this.props.colors.text}}>proyects</a>
+                <a href="#projects" style={{color: this.props.colors.text}}>projects</a>
                 <a href="#about" style={{color: this.props.colors.text}}>about</a>
                 <FontAwesomeIcon 
                     className={classes.Icon} 

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Header from '../Header/Header';
 import Intro from '../Intro/Intro';
 import About from '../About/About';
-import Proyects from '../Proyects/Proyects';
+import Projects from '../Projects/Projects';
 import Footer from '../Footer/Footer';
 
 class Layout extends Component{
@@ -42,7 +42,7 @@ class Layout extends Component{
                     clicked={this.toggleLightDarkMode}
                     darkMode={this.state.darkMode}/>
                 <Intro colors={colorMode}/>
-                <Proyects colors={colorMode}/>
+                <Projects colors={colorMode}/>
                 <About colors={colorMode}/>
                 <Footer colors={colorMode}/>
             </div>
@@ -51,14 +51,3 @@ class Layout extends Component{
 }
 
 export default Layout;
-
-
-    // --color-text: #4D4C4C;
-  //   --color-bg-1: #F7F2F2;
-  //   --color-bg-2: #E6E2E2;
-  //   --color-bg-3: #C1C1C1;
-
-  //   --color-text-d: #F7F2F2;
-  //   --color-bg-1-d: #4D4C4C;
-  //   --color-bg-2-d: #353535;
-  //   --color-bg-3-d: #C1C1C1;

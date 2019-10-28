@@ -1,4 +1,4 @@
-.Proyects{
+.Projects{
     height: auto;
     padding: 0 5% 15%;
     display: flex;
@@ -6,7 +6,7 @@
     flex-flow: column;
 }
 
-.Proyects h3{
+.Projects h3{
     margin: 5% 0 0;
     font-size: 24px;
 }
@@ -18,7 +18,7 @@
     background-color: #42B56C;
 }
 
-.ProyectsList{
+.ProjectsList{
     margin-top: 0;
     padding: 0;
     align-items: center;
@@ -29,10 +29,10 @@
 }
 
 @media (max-width: 1200px){
-    .ProyectsList{
+    .ProjectsList{
         flex-wrap: wrap;
     }
-    .Proyects{
+    .Projects{
         height: auto ;
         padding-bottom: 180px;
     }

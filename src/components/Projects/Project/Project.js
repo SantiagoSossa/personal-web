@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import classes from './Proyect.module.css';
+import classes from './Project.module.css';
 import Modal from '../../Modal/Modal'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
@@ -7,7 +7,7 @@ import { faLaptopCode, faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 
 import Fade from 'react-reveal/Fade';
 
-export default class Proyect extends Component {
+export default class Project extends Component {
     state = {
         moreInfo: false,
     }
@@ -41,7 +41,7 @@ export default class Proyect extends Component {
             </Modal>;
         }
         return(
-            <div className={classes.Proyect}>
+            <div className={classes.Project}>
                 <Fade duration={1500} bottom>
                 <div className={classes.Card}>
                     <div className={[classes.Face,classes.Face1].join(" ")} style={style}>

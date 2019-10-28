@@ -13,7 +13,7 @@ class Footer extends Component{
         const reactLogo = <FontAwesomeIcon icon={faReact} className={classes.Icon} />;
         return(
             <div className={classes.Footer} style={style}>
-                <p>Made with {reactLogo} By Santiago Sossa</p>
+                <p>Made with {reactLogo} by Santiago Sossa</p>
             </div>
         )
     }
