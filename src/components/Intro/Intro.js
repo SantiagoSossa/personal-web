@@ -3,7 +3,8 @@ import mountains from '../../assets/images/Mountains.png';
 import classes from './Intro.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithubSquare, faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import { faStickyNote, faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { faStickyNote, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import Resume from '../../assets/santiagosossa_cv.pdf';
 
 import Fade from 'react-reveal/Fade';
 
@@ -45,11 +46,13 @@ class Intro extends Component {
                             icon={faLinkedin} 
                             size="3x" />
                     </a>
-                    <FontAwesomeIcon 
-                        title="My Resume" 
-                        className={classes.Icon} 
-                        icon={faStickyNote} 
-                        size="3x" />
+                    <a href={Resume} rel="noopener noreferrer" target="_blank">
+                        <FontAwesomeIcon 
+                            title="My Resume" 
+                            className={classes.Icon} 
+                            icon={faStickyNote} 
+                            size="3x" />
+                    </a>
                 </div>
             </div>
             <div className={classes.ImageContainer}>
