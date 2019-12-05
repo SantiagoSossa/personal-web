@@ -64,7 +64,7 @@ class Projects extends Component {
                         show={this.handleModalOpen}
                         color={this.props.colors}
                         gif={BeerMeAppgif}
-                        icons={[faReact,faCss3Alt,faHtml5,faJs]}/>
+                        icons={[faReact,faCss3Alt,faHtml5,faJs,faFireAlt]}/>
                     <Project 
                         image={CollegeRecipes}
                         description="Search for recipes ingredient by ingredient, and save the ones you liked."
