@@ -60,7 +60,7 @@ class Projects extends Component {
                         largeDescription={<p>For this project I mainly wanted to create a web app to save the information of all the beers that I was drinking over time.<br/><br/>
                         Then some other ideas were coming out and I decided to scale the application for public use by adding accounts, leaderboards and some other functionalities.</p>}
                         githubLink="https://github.com/SantiagoSossa/beer-app" 
-                        demoLink="https://keen-swirles-c4e894.netlify.com/"
+                        demoLink="https://condescending-mestorf-104a46.netlify.com/"
                         show={this.handleModalOpen}
                         color={this.props.colors}
                         gif={BeerMeAppgif}
